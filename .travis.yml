@@ -8,6 +8,7 @@ addons:
     organization: fab
   
 script:
+  - npm install
   - sonar-scanner -Dsonar.projectKey=fab-ts -Dsonar.sources=.
 
 cache:
