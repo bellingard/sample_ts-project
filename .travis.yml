@@ -9,7 +9,7 @@ addons:
   
 script:
   - npm install
-  - sonar-scanner -Dsonar.projectKey=fab-ts -Dsonar.sources=.
+  - sonar-scanner -Dsonar.projectKey=fab-ts -Dsonar.sources=greeter.ts
 
 cache:
   directories:
